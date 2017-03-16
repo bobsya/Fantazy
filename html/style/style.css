@@ -1,0 +1,658 @@
+@font-face {
+ font-family: 'Cinzel';
+ src: url('../fonts/cinzel-bold-webfont.eot') format('eot'),
+      url('../fonts/cinzel-bold-webfont.woff') format('woff'),
+      url('../fonts/cinzel-bold-webfont.woff2') format('woff2'),
+      url('../fonts/cinzel-bold-webfont.ttf')  format('truetype'),
+      url('../fonts/cinzel-bold-webfont.svg') format('svg');
+ }
+@font-face {
+font-family: 'CinzelBlack';
+src: url('../fonts/cinzel-black-webfont.eot') format('eot'),
+  url('../fonts/cinzel-black-webfont.woff') format('woff'),
+  url('../fonts/cinzel-black-webfont.woff2') format('woff2'),
+  url('../fonts/cinzel-black-webfont.ttf')  format('truetype'),
+  url('../fonts/cinzel-black-webfont.svg') format('svg');
+}
+@font-face {
+font-family: 'CinzelRegular';
+src: url('../fonts/cinzel-regular-webfont.eot') format('eot'),
+  url('../fonts/cinzel-regular-webfont.woff') format('woff'),
+  url('../fonts/cinzel-regular-webfont.woff2') format('woff2'),
+  url('../fonts/cinzel-regular-webfont.ttf')  format('truetype'),
+  url('../fonts/cinzel-regular-webfont.svg') format('svg');
+}
+body {
+	margin: 0;
+    overflow-x: hidden;
+}
+.wrapper {
+	width: 1324px;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1340px;
+    }
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 0;
+ .section {
+	  height: 100%;
+	  margin: 0;
+  }
+  .section.one {
+	background: url('../images/bgOne.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    #parallax_1 {
+    	position: relative;
+    	height: 100%;
+        text-align:center;
+        z-index: 10;
+		a {
+	    	img.logo {
+		    	margin-top: 100px;
+		    }
+		}
+	    .lead {
+	        margin-top: 20px;
+	        margin-bottom: 60px;
+		    a {
+	    	    text-shadow: 0px 11px 20px #000000;
+		    	padding-left: 88px;
+		    	padding-right: 88px;
+		    	padding-top: 23px;
+		    	padding-bottom: 23px;
+		    	border: 4px solid #941515;
+		    	font-family: 'CinzelBlack';
+		    	font-size: 53px;
+		    	background: #901414;
+		    	color: #ffffff;
+		    	border-radius: 80px;
+		    	text-transform: uppercase;
+		    	box-shadow: none;
+		    }
+		}
+		.txt {
+			font-family: 'CinzelBlack';
+			font-size: 28px;
+			color: #171717;
+			p {
+				width: 70%;
+			    text-align: center;
+			    margin: auto;
+			}
+		}
+		.social {
+		    margin-top: 75px;
+		    a {
+		    	padding-right: 20px;
+		    }
+			a {
+				img.appstore {
+					width: 15%
+				}
+			}
+			a {
+				img.google {
+					width: 16.5%
+				}
+			}
+			a {
+				img.amazon {
+					width: 15%
+				}
+			}
+		}
+    }
+    #parallax_2 {
+	    position: relative;
+    	width: 100%;
+    	bottom: 0;
+
+    }
+    .ico-louna {
+        display: block;
+        background: url('../images/louna.png') no-repeat;
+        width: 627px;
+        height: 684px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .ico-noctis {
+        display: block;
+        background: url('../images/noctis.png') no-repeat;
+        width: 727px;
+        height: 783px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+  }
+  .pageToo {
+  	  background: url('../images/bgToo.png');
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+	  .section.too {
+	  	p.txt {
+			font-family: 'Cinzel';
+		    font-size: 15px;
+		    color: #0f3f6b;
+		    margin: auto;
+		    text-align: center;
+		    margin-top: 40px;
+		    margin-bottom: 40px;
+		    display: block;
+	  	}
+	  	.slider {
+	  		text-align: center;
+  		    .slick-list {
+  		    	.slick-track {
+  		    		.slick-slide {
+  		    			p.gear {
+					  		font-family: 'Cinzel';
+					  		font-size: 25px;
+					  		color: #0f3f6b;
+				  		    margin-top: -55px;
+  		    			}
+  		    		}
+  		    	}
+  		    }
+	  		.slick-next {
+  			    background: url(../images/arrowRight.png) no-repeat center center;
+			    height: 53px;
+			    width: 34px;
+	  		}
+	  		.slick-next:before {
+			    content: close-quote;
+			}
+			.slick-prev {
+  			    background: url(../images/arrowLeft.png) no-repeat center center;
+			    height: 53px;
+			    width: 34px;
+	  		}
+	  		.slick-prev:before {
+			    content: close-quote;
+			}
+	  	}
+	  	position: relative;
+	  	.sydneyBlock{
+	  		padding-top: 65px;
+            position: relative;
+            z-index: 1;
+		  	.sydney {
+			    background: url(../images/sydney.png) no-repeat center center;
+			    width: 545px;
+			    height: 376px;
+                position: absolute;
+                left: -250px;
+                bottom: 0;
+		  	}
+		    .history {
+			    display: inline-block;
+			    width: 100%;
+			    border: 5px solid #1ba1f4;
+			    background: rgba(9, 40, 65, 0.4);
+			    margin-bottom: 40px;
+		    	.txt {
+				    position: relative;
+				    width: 100%;
+				    z-index: 111;
+				    opacity: 1;
+				    padding-left: 180px;
+				    padding-right: 61px;
+				    padding-top: 40px;
+				    padding-bottom: 45px;
+			    	p{
+			    		font-family: 'Cinzel';
+			    		color: #fffdfd;
+						font-size: 30px;
+						text-align: center;
+			    	}
+			    }
+			}
+		}
+		.line {
+			background: url('../images/bgLine.png') center center;
+			position: relative;
+			z-index: 11;
+			.lineTop {
+			    background: url('../images/lineLight.png') no-repeat center center;
+			    padding-top: 18px;
+			}
+			.lineBottom {
+			    background: url('../images/lineLight.png') no-repeat center center;
+			    padding-bottom: 13px;
+			}
+			form.form-inline {
+				.label-group {
+					padding-top: 10px;
+				}
+				.form-group {
+					padding-bottom: 15px;
+				}
+                label {
+                    display: block;
+                    font-family: 'Cinzel';
+                    font-size: 25px;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                }
+					input {
+					    border-radius: 30px;
+					    background: rgba(0, 0, 0, 0.34);
+					    box-shadow: inset 0px 15px 20px -15px #000000;
+					    border: none;
+					    padding-bottom: 21px;
+					    padding-top: 21px;
+                        width: 100%;
+                        font-family: 'CinzelRegular';
+					}
+					input.email {
+						padding-left: 20px;
+					}
+					input.password {
+						padding-right: 20px;
+					}
+					button {
+						display: inline-block;
+			    	    text-shadow: 0px 11px 20px #000000;
+			    	    padding-left: 80px;
+					    padding-top: 3px;
+					    padding-bottom: 3px;
+					    padding-right: 80px;
+				    	border: 4px solid #941515;
+				    	font-family: 'Cinzel';
+				    	font-size: 25px;
+				    	background: #901414;
+				    	color: #ffffff;
+				    	border-radius: 80px;
+				    	text-transform: uppercase;
+				    	box-shadow: none;
+					}
+			}
+		}
+	  }
+	  .section.thre {
+	  	position: relative;
+	  	div.pers {
+	  		background: url('../images/pers.png') no-repeat center center;
+  		    width: 1919px;
+		    height: 1869px;
+		    position: absolute;
+	  	}
+	    .history {
+	    	position: relative;
+			margin: 0 auto;
+		    background: rgba(9, 40, 65, 0.4);
+	        border: 5px solid #1ba1f4;
+	    	.txt {
+	    		position: relative;
+			    width: 100%;
+			    height: 100%;
+			    z-index: 111;
+			    opacity: 1;
+			    text-transform: uppercase;
+			    padding-left: 65px;
+			    padding-top: 60px;
+			    padding-bottom: 85px;
+			    padding-right: 75px;
+	    		h2 {
+		    		margin: 0;
+		    		color: #ffffff;
+		    		text-align: center;
+		    		font-size: 61px;
+		    		letter-spacing: 2px;
+		    		text-transform: uppercase;
+		    		padding-bottom: 60px;
+		    		font-family: 'CinzelBlack';
+		    	}
+		    	p{
+	    		    font-family: "Cinzel";
+		    		color: #ffffff;
+					font-size: 27px;
+		    	}
+		    }
+		}
+	  }
+	  .section.foure {
+  	    margin-top: 420px;
+	    .carousel.slide {
+	        margin: 0 auto;
+	        margin-bottom: 210px;
+	    	.carousel-indicators {
+		        display: none;
+			}
+			.carousel-control {
+			    background: #3b6c8d;
+	    		opacity: 1;
+	    		.glyphicon-chevron-right {
+	    			background: url('../images/rrowSlideRight.png') no-repeat center center;
+	    		}
+	    		.glyphicon-chevron-right:before {
+	    			content: close-quote;
+	    		}
+	    		.glyphicon {
+	    			width: 38px;
+	    			height: 65px;
+	    		}
+	    		.glyphicon-chevron-left {
+	    			background: url('../images/rrowSlideLeft.png') no-repeat center center;
+	    		}
+	    		.glyphicon-chevron-left:before {
+	    			content: close-quote;
+	    		}
+			}
+	    }
+	    .carousel-inner {
+	    	position: relative;
+		    overflow: hidden;
+		    height: 700px;
+		    background: #60aee4;
+		    .item {
+	    	    width: 100%;
+			    margin: auto;
+			    text-align: center;
+		        top: calc(50% - 13px);
+			    p {
+				    margin: 0 0 10px;
+				    color: #ffffff;
+				    font-size: 23px;
+				}
+		    }
+		}
+		.mobileImg {
+			display: none;
+		}
+	  }
+	}
+}
+
+@media (max-width: 1760px) {
+	#noctis, #louna {
+		zoom: 0.7;
+	}
+}
+@media (max-width: 768px) {
+	.container {
+		width: 251px;
+		padding: 0;
+	}
+	.page {
+		.section.one {
+			.ico-louna {
+			    width: 257px;
+			    height: 280px;
+			    background-size: contain;
+			}
+			#parallax_1 {
+				.social {
+				    width: 75px;
+    				margin: 0 auto;
+				    margin-top: 12px;
+					a {
+						img {
+						    width: 80px !important;
+	    					height: 23px;
+	    					margin-top: 8px;
+						}
+					}
+				}
+				.lead {
+					margin-bottom: 10px;
+					a {
+				        font-size: 20px;
+			            font-size: 20px;
+					    padding-left: 40px;
+					    padding-right: 40px;
+					    padding-top: 15px;
+					    padding-bottom: 15px;
+					    width: 100%;
+					}
+				}
+				.txt {
+				    font-size: 10px;
+				    p {
+				    	width: 100%;
+				    }
+				}
+				a {
+					img.logo {
+						width: 100%;
+					}
+				}
+			}
+			.ico-noctis {
+			    width: 257px;
+			    height: 276px;
+			    background-size: contain;
+			}
+		}
+		.pageToo {
+			.section.too {
+				.container {
+				    width: 100%;
+				    padding-right: 15px;
+				    padding-left: 15px;
+				    margin-right: auto;
+				    margin-left: auto;
+				}
+				.slider {
+					.slick-next{
+					    height: 12px;
+					    width: 17px;
+					    background-size: contain;
+				        right: 0;
+					}
+					.slick-prev {
+					    height: 12px;
+					    width: 17px;
+					    background-size: contain;
+					    left: 0;
+					}
+					.slick-list {
+						.slick-track {
+							.slick-slide {
+								img {
+									zoom: 0.3;
+								}
+								p.gear{
+								    font-size: 8px;
+							        margin-top: -10px;
+								}
+							}
+						}
+					}
+				}
+				p.txt {
+					font-size: 6px;
+					margin-top: 15px;
+					margin-bottom: 45px;
+				}
+				.line {
+					.lineBottom {
+						background-size: 100% 100%;
+					}
+					.lineTop {
+						background-size: 100% 100%;
+					}
+					form.form-inline {
+						label {
+							font-size: 13px;
+						}
+						button {
+							font-size: 11px;
+							padding-left: 50px;
+							padding-right: 57px;
+							padding-bottom: 7px;
+							padding-top: 7px;
+						}
+						.form-group {
+							.form-control{
+								font-size: 8px;
+							}
+						}
+					}
+				}
+				.sydneyBlock {
+					padding-top: 17px;
+					.sydney {
+		                width: 167px;
+    					height: 116px;
+					    left: 0;
+					    background-size: contain;
+					}
+					.history {
+						margin-bottom: 10px;
+	    				border: 2px solid #1ba1f4;
+	    				border-right: none;
+    				    margin-left: 15px;
+						.txt {
+						    position: relative;
+						    width: 100%;
+						    z-index: 111;
+						    opacity: 1;
+					        padding-right: 30px;
+						    padding-top: 5px;
+						    padding-bottom: 5px;
+					        padding-left: 0;
+						    p {
+					    	    font-size: 8px;
+				    	        text-align: right;
+			    	            width: 220px;
+							    margin-left: 90px;
+							    text-transform: uppercase;
+						    }
+						}
+					}
+				}
+			}
+			.section.thre {
+				div.pers {
+				    background-size: contain;
+				    width: 370px;
+				    height: 395px;
+				}
+				.history {
+				    border: 2px solid #1ba1f4;
+					.txt {
+					    padding-left: 20px;
+					    padding-top: 15px;
+					    padding-bottom: 40px;
+					    padding-right: 20px;
+						h2{
+							font-size: 16px;
+							padding-bottom: 15px;
+						}
+						p {
+							font-size: 7.5px;
+						}
+					}
+				}
+			}
+			.section.foure {
+				margin-top: 74px;
+				.carousel.slide {
+				    margin-bottom: 10px;
+					.carousel-control {
+						width: 22px;
+						.glyphicon-chevron-left {
+    						width: 11px;
+						    height: 6px;
+						    background-size: cover;
+					        left: 18px;
+						}
+						.glyphicon-chevron-right {
+						    width: 11px;
+						    height: 6px;
+						    background-size: cover;
+					        left: 3px;
+						}
+					}
+				}
+				.carousel-inner{
+					height: 140px;
+				}
+				.mobileImg {
+					display: block;
+					.img {
+						width: 120px;
+						height: 65px;
+						background: #6287b5;
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}
+}
+.pageText {
+  background: url('../images/bgText.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  padding: 0;
+  .section {
+	height: 100%;
+	margin: 0;
+  }
+  .section.text {
+	margin-top: 100px;
+    margin-bottom: 325px;
+    .lounaText {
+    	background: url('../images/lounaText.png') no-repeat;
+    	position: absolute;
+	    width: 1022px;
+	    height: 2970px;
+	    bottom: 0;
+    }
+    .noctisText {
+    	background: url('../images/noctisText.png') no-repeat;
+    	position: absolute;
+	    width: 861px;
+    	height: 3148px;
+    	right: 0;
+    	bottom: 0;
+    }
+    .container {
+    	width: 1375px;
+    	.logoText {
+			background: url('../images/logo.png') no-repeat;
+			position: relative;
+			width: 460px;
+			height: 293px;
+		    margin: 0 auto;
+    	}
+    	.history {
+    		position: relative;
+    		background: rgba(34, 44, 88, 0.6);
+    		border: 2px solid #1ba1f4;
+    		.txt {
+    			padding-left: 55px;
+			    padding-bottom: 360px;
+			    padding-right: 55px;
+    			h2{
+					color: #fffdfd;
+					font-family: 'Cinzel';
+					font-size: 60px;
+				    margin-top: 80px;
+    				margin-bottom: 60px;
+    			}
+    			p {
+		    		color: #fffdfd;
+					font-size: 25px;
+    			}
+    		}
+    	}
+    }
+  }
+}
